@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Fiches dépannage</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- site icon -->
+   <link rel="icon" href="images/fevicon.png" type="image/png" />
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- site css -->
+   <link rel="stylesheet" href="style.css" />
+   <!-- responsive css -->
+   <link rel="stylesheet" href="css/responsive.css" />
+   <!-- color css -->
+   <link rel="stylesheet" href="css/colors.css" />
+   <!-- select bootstrap -->
+   <link rel="stylesheet" href="css/bootstrap-select.css" />
+   <!-- scrollbar css -->
+   <link rel="stylesheet" href="css/perfect-scrollbar.css" />
+   <!-- custom css -->
+   <link rel="stylesheet" href="css/custom.css" />
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body class="dashboard dashboard_1">
+   <div class="full_container">
+      <div class="inner_container">
+
+         <!---SIDEBAR-------------------------------------------------------------------------------------------------------->
+         <nav id="sidebar">
+            <div class="sidebar_blog_1">
+               <div class="sidebar-header">
+                  <div class="logo_section">
+                     <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png"
+                           alt="#" /></a>
+                  </div>
+               </div>
+               <div class="sidebar_user_info">
+                  <div class="icon_setting"></div>
+                  <div class="user_profle_side">
+                     <div class="user_img"><img class="img-responsive" src="images/layout_img/macron_img.jpg"
+                           style="width:90px;height:75px;" />
+                     </div>
+                     <div class="user_info">
+                        <h6>Correspondant</h6>
+                        <p><span class="online_animation"></span> Online</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="sidebar_blog_2">
+               <a href="index.html"><span>
+                     <h4>General</h4>
+                  </span></a>
+               <ul class="list-unstyled components">
+                  <li><a href="fiches_scbcm.html"><i class="fa fa-hand-spock-o orange_color"></i><span>Fiches
+                           scbcm</span></a>
+                  </li>
+                  <li>
+                     <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                           class="fa fa-windows blue2_color"></i> <span>Fiches Windows 10</span></a>
+                     <ul class="collapse list-unstyled" id="apps">
+                        <li><a href="logiciels_utiles.html"><i class="fa fa-floppy-o red_color"></i><span>Logiciels
+                                 utiles</span></a></li>
+                  </li>
+                  <li><a href="fiches_depannage.html"><i class="fa fa-hand-spock-o green_color"></i> <span>Fiches
+                           dépannage</span></a></li>
+                  <li><a href="fiches_infos_windows_10.html"><i class="fa fa-windows blue2_color"></i> <span>Fiches
+                           infos
+                        </span></a></li>
+                  <li><a href="fiches_bonnes_pratiques.html"><i class="fa fa-leaf green_color"></i> <span>Fiches Bonnes
+                           pratiques</span></a></li>
+               </ul>
+               </ul>
+            </div>
+         </nav>
+         <!--END OF SIDEBAR-------------------------------------------------------------------------------------------------------->
+
+         <!-- right content -->
+         <div id="content">
+            <!-- topbar -->
+            <div class="topbar">
+               <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="full">
+                     <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i
+                           class="fa fa-bars"></i></button>
+                     <div class="logo_section">
+                        <a href="index.html"><img class="img-responsive" src="images/logo/logo.png" alt="#" /></a>
+                     </div>
+                     <div class="right_topbar">
+                        <div class="icon_info">
+                           <ul>
+                              <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">2</span></a></li>
+                              <li><a href="#"><i class="fa fa-question-circle"></i></a></li>
+                              <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">3</span></a></li>
+                           </ul>
+                           <ul class="user_profile_dd">
+                              <li>
+                                 <a class="dropdown-toggle" data-toggle="dropdown"><img
+                                       class="img-responsive rounded-circle" src="images/layout_img/borne_img.jpg"
+                                       alt="#" /><span class="name_user">Mon profil</span></a>
+                                 <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="profile.html">My Profile</a>
+                                    <a class="dropdown-item" href="settings.html">Settings</a>
+                                    <a class="dropdown-item" href="help.html">Help</a>
+                                    <a class="dropdown-item" href="#"><span>Log Out</span> <i
+                                          class="fa fa-sign-out"></i></a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+            <!-- end topbar -->
+
+            <!-- dashboard inner -->
+            <div class="midde_cont">
+               <div class="container-fluid">
+                  <div class="row column_title">
+                     <div class="col-md-12">
+                        <div class="page_title">
+                           <h2>Fiches dépannage</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- dropdown ------------------------------------------------------------------------------------------------------------------------->
+                  <div class="white_shd full margin_bottom_30">
+                     <div class="full graph_head">
+                        <div class="heading1 margin_0">
+                           <h2>Ph.CD</h2>
+                        </div>
+                     </div>
+                     <div class="full progress_bar_inner">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="full">
+                                 <div class="padding_infor_info">
+
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Mon PC</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#pc_defaillant">PC défaillant</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Applications</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#reparer_applications">Réparer les
+                                                applications</a>
+                                             <a class="dropdown-item" href="#bloatware">Bloatware</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Fonctionnement</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#maj_windows">MAJ windows</a>
+                                             <a class="dropdown-item" href="#session">session</a>
+                                             <a class="dropdown-item" href="#date_et_heure">Date et heure</a>
+                                             <a class="dropdown-item" href="#optimiser_performances">Optimiser les
+                                                performances</a>
+                                             <a class="dropdown-item" href="#consolider_maintenance">Consolider la
+                                                maintenance</a>
+                                             <a class="dropdown-item" href="#bureau">Bureau</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Connexion</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#corriger_pb-cnx">Corriger Pb Cnx</a>
+                                             <a class="dropdown-item" href="#pb_reseau">Pb réseau</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Sécurité</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#renforcer_securite">Renforcer la
+                                                sécurité</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Doc.</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#effacement_ecrasement">Éffacement et
+                                                ecrasement</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="dropdown_section">
+                                       <div class="dropdown">
+                                          <button type="button" class="btn btn-primary dropdown-toggle"
+                                             data-toggle="dropdown">Les périphériques</button>
+                                          <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="#imprimante">L'imprimante</a>
+                                             <a class="dropdown-item" href="#haut-parleurs">Les haut-parleurs</a>
+                                             <a class="dropdown-item" href="#clavier">Le clavier</a>
+                                             <a class="dropdown-item" href="#disk_dur">Le disque dur</a>
+                                             <a class="dropdown-item" href="#microphone">Le microphone</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- end dropdown ---------------------------------------------------------------------------------------------------------------------------------->
+
+                  <!-- Paragraphe -->
+                  <div class="row margin_bottom_30">
+
+                     <!-- balise -->
+                     <div class="row column_title" id="mon_pc">
+                        <div class="page_title">
+                           <h2>Mon PC</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="pc_defaillant">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Réparer votre PC défaillant</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <div class="column">
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/pc_lent_demarrage.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Mon PC est ultra lent<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/reparer_appli.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Réparer les applications <span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/reinitialiser_systeme.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Réinitialiser le système<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/gerer_point_restauration.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Gérer les points de
+                                          restauration<span class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/demarrer_mode_sans_echec.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Démarrer en mode sans echec<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/debloquer_menu_demarrer.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Débloquer le menu démarrer<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/performances_pc_limitees.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Les performances de mon PC sont
+                                          limitées<span class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/reduire_effets_visuels.png">
+                                          <i class="fa fa-clock-o orange_color"></i> reduire effets visuels<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/alleger_demarrage.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Alléger le démarrage<span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/mon_pc/ajuster_memoire_virtuelle.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Ajuster la mémoire virtuelle <span
+                                             class="info_valume">
+                                       </a>
+                                    </span>
+                                    <span class="skill" style="width:73%;">
+                                       <a href="images/fiches_depannage/autonomie/portable_plus_autonomie.png">
+                                          <i class="fa fa-clock-o orange_color"></i> Mon PC portable n'a plus
+                                          d'autonomie<span class="info_valume">
+                                       </a>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- Applications ---------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title" id="applications">
+                        <div class="page_title">
+                           <h2>Applications</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30"
+                        id="reparer_applications">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Réparer les applications</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a
+                                       href="images/fiches_depannage/reparer_application/impossible_installer_application.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Impossible de mettre Windows à jour
+                                       <span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/reparer_application/perte_document_important.png">
+                                       <i class="fa fa-clock-o orange_color"></i> J'ai perdu un document important <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="bloatware">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Bloatware</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/bloatware/listes_services_a_desactiver.pdf">
+                                       <i class="fa fa-clock-o orange_color"></i> Services à désactiver <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/bloatware/debarrasser_fichiers_temporaires.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Se débarrasser des fichiers
+                                       temporaires <span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Applications ---------------------------------------------------------------------------------------------------------->
+
+                     <!-- Fonctionnement ---------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title" id="fonctionnement">
+                        <div class="page_title">
+                           <h2>Fonctionnement</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="maj_windows">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Mise à jour Windows 10</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/mise_a_jour/mise_a_jour_impossible.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Impossible de mettre Windows à jour
+                                       <span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="session">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Session</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/session/ouverture_session_eternise.png">
+                                       <i class="fa fa-clock-o orange_color"></i> L'ouverture de session s'éternise<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="date_et_heure">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Date et heure</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="pages/fiches_depannage/date_et_heure/date_et_heure_01.html">
+                                       <i class="fa fa-clock-o orange_color"></i> Le PC indique une date <span
+                                          class="info_valume">
+                                    </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30"
+                        id="optimiser_performances">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Optimiser les performances</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/nettoyer_cnx_reseau.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Nettoyer votre connexion <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/accelerer_recherches.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Accélerer les recherches<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/prenez_soin_disk_dur.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Prenez soin de votre disque dur<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/automatiser_nettoyage.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Automatisez le nettoyage<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a
+                                       href="images/fiches_depannage/optimiser_performances/supprimer_logiciles_inutiles.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Supprimer les logiciels inutiles<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/reduire_effets_visuels.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Enlevez les effets visuels<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a
+                                       href="images/fiches_depannage/optimiser_performances/ajuster_memoire_virtuelle.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Ajuster la mémoire virtuelle <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/optimiser_performances/alleger_demarrage.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Alléger le démarrage<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30"
+                        id="consolider_maintenance">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Consolider la maintenance</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/consolider_maintenance/analysez_activite_pc.png">
+                                       <i class="fa fa-clock-o orange_color"></i> nettoyer votre connexion <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/consolider_maintenance/verifier_fiabilite_pc.png">
+                                       <i class="fa fa-clock-o orange_color"></i> vérifiez la fiabilité de votre PC
+                                       <span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="bureau">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Le bureau</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a
+                                       href="images/fiches_depannage/nettoyer_le_bureau/les_notifications_envahissent_le_bureau.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Les notifications envahissent le
+                                       bureau<span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a
+                                       href="images/fiches_depannage/nettoyer_le_bureau/impossible_de_revenir_au_bureau.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Impossible de revenir au bureau<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Fonctionnement --------------------------------------------------------------------------------------------------------------->
+
+                     <!-- Connexion --------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title" id="connexion">
+                        <div class="page_title">
+                           <h2>Connexion</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="corriger_pb-cnx">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Corriger les problèmes de connexion internet</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/connexion_ko.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Ma connexion internet ne fonctionne
+                                       plus <span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/navigateur_popup_demarrage.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Mon navigateur ouvre des fenêtres
+                                       pop-up au démarrage<span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/pb_pare_feu.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Une application ne communique plus sur
+                                       internet<span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/impossibilite_connexion_wifi.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Impossible de se connecter au
+                                       wi-fi<span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/webcam_ko.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Ma webcam ne marche plus en
+                                       visioconférence<span class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/pb_internet/controle_enfant.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Contrôler les activité de mes
+                                       enfants<span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Connexion -------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- Réseau ------------------------------------------------------------------------------------------------------------------------>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="pb_reseau">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Réseau</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/reseau/mesurer_votre_debit_internet.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Mesurez votre débit internet<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/reseau/arreter_les_processus_gourmands.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Arrêtez les processus gourmands<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/reseau/ajuster_les_parametres_de_la_box.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Ajustez les paramètres de la box<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/reseau/selfish.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Préservez votre bande passante<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- Réseau ------------------------------------------------------------------------------------------------------------------------>
+
+                     <!-- Sécurité ---------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title" id="securite">
+                        <div class="page_title">
+                           <h2>Sécurité</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="renforcer_securite">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Renforcer la sécurité</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/renforcer_securite/virus_infecter.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Des virus ont infecté mon PC <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Sécurité ---------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- Documents ---------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title">
+                        <div class="page_title">
+                           <h2>Documents</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30"
+                        id="effacement_ecrasement">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Effacement et écrasement</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/documents/perte_toutes_donnees.png">
+                                       <i class="fa fa-clock-o orange_color"></i> J'ai perdu un document important <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Documents ---------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- Périphériques ------------------------------------------------------------------------------------------------------------------->
+
+                     <!-- balise -->
+                     <div class="row column_title" id="peripherique">
+                        <div class="page_title">
+                           <h2>Périphériques</h2>
+                        </div>
+                     </div>
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="imprimante">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">L'imprimante</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/imprimante/imprimante_repond_plus.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Mon imprimante ne répond plus<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="pages/gerer_peripheriques/pb_detection.html">
+                                       <i class="fa fa-clock-o orange_color"></i> Problème de détection<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="pages/gerer_peripheriques/doc_bloques.html">
+                                       <i class="fa fa-clock-o orange_color"></i> Documents bloqués en impression<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="pages/gerer_peripheriques/scanner_bloques.html">
+                                       <i class="fa fa-clock-o orange_color"></i> Quand le scanner ne parvient pas à
+                                       numériser<span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="disk_dur">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Le disque dur</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/disk_dur/disk_dur_01.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Diagnostiquez votre disque dur <span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="haut-parleurs">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Les hauts-parleurs du portable</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/haut_parleurs/haut_parleurs_ko.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Plus aucun son ne sort de mes
+                                       enceintes ! <span class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="clavier">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Clavier</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/clavier/clavier_bascule_en_anglais.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Le clavier a basculé en anglais<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                                 <span class="skill" style="width:73%;">
+                                    <a href="pages/fiches_depannage/clavier/raccourcis_clavier.html">
+                                       <i class="fa fa-clock-o orange_color"></i> Raccourci clavier<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="moniteur">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Moniteur</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/moniteur/second_moniteur_affiche_mal.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Mon second moniteur s'affiche mal<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- row -->
+                     <div class="col-md-12 col-lg-12 widget_progress_section margin_bottom_30" id="microphone">
+                        <div class="white_shd full">
+                           <div class="widget_progress_bar">
+                              <p class="progress_no">Microphone</p>
+                              <p class="progress_head"></p>
+                              <div class="progress_bar">
+                                 <!-- Skill Bars -->
+                                 <span class="skill" style="width:73%;">
+                                    <a href="images/fiches_depannage/microphone/microphone_ko.png">
+                                       <i class="fa fa-clock-o orange_color"></i> Mon second moniteur s'affiche mal<span
+                                          class="info_valume">
+                                    </a>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end row -->
+
+                     <!-- /Périphériques -------------------------------------------------------------------------------------------------------------------->
+
+                  </div>
+                  <!-- end Paragraphe -->
+                  <!-- footer -->
+                  <div class="container-fluid">
+                     <div class="footer">
+                        <p>Copyright © 2018 Designed by html.design. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- end dashboard inner -->
+            </div>
+         </div>
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- wow animation -->
+      <script src="js/animate.js"></script>
+      <!-- select country -->
+      <script src="js/bootstrap-select.js"></script>
+      <!-- owl carousel -->
+      <script src="js/owl.carousel.js"></script>
+      <!-- chart js -->
+      <script src="js/Chart.min.js"></script>
+      <script src="js/Chart.bundle.min.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/analyser.js"></script>
+      <!-- nice scrollbar -->
+      <script src="js/perfect-scrollbar.min.js"></script>
+      <script>
+         var ps = new PerfectScrollbar('#sidebar');
+      </script>
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+      <!-- calendar file css -->
+      <script src="js/semantic.min.js"></script>
+
+
+
+</body>
+</body>
+</body>
